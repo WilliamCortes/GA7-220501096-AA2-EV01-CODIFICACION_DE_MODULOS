@@ -25,7 +25,7 @@ La clase ClientDAO es responsable de realizar operaciones CRUD en la tabla clien
 
 
 - [x] DBConnection
-La clase DBConnection gestiona la conexión a la base de datos MySQL utilizando el patrón Singleton. Proporciona un método estático getInstance() para obtener la instancia de la conexión y un método getConnection() para obtener la conexión real.
+La clase DBConnection gestiona la conexión a la base de datos MySQL. Proporciona un método estático getConnection() para obtener la conexión real.
 
 
 - [x] Client
@@ -77,3 +77,25 @@ git clone https://github.com/WilliamCortes/GA7-220501096-AA2-EV01-CODIFICACION_D
 
 5. **Explorar las Funcionalidades:**
    Sigue las instrucciones en la consola para explorar las diferentes funcionalidades de la aplicación, como crear, listar, actualizar y eliminar clientes.
+
+
+---
+
+
+- Este es el menu principal debes selecionar un numero entre 1 y 5:
+
+![Menu principla en la consola](docs/images/menu.png)
+
+- Ejemplo de listar los clientes en la dase de datos, opcion 2:
+
+![Output de listar clientes](docs/images/list.png)
+
+- Restriciónes al crear un nuevo usuario que debes tener en cuenta:  
+-[x] El tipo de documento ya debe estar creado en la tabla ```documentType```
+-[x] La fecha debe estar en el formato indicado: ```YYYY-MM-DD```
+
+![Output de listar clientes](docs/images/create.png)
+
+**Nota**: Asegúrate de seguir las restricciones y consideraciones indicadas a continuación para evitar posibles errores que podrían romper el programa.
+
+Power By Will I am ❤️.
